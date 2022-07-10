@@ -1,6 +1,6 @@
 {
   "vim.useCtrlKeys": true,
-  // 启用 emotion 插件
+  // 启用 easymotion 插件
   "vim.easymotion": true,
   // 修改 leader默认键位为 空格键
   "vim.leader": "<Space>",
@@ -35,8 +35,12 @@
       "after": ["g", "_"]
     }
   ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    { "before": ["f"], "after": ["z"] },
+    { "before": ["f"], "after": ["z"] }
+  ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    // format document
+    // format documuent
     // {
     //   "before" : ["<leader>", "f"],
     //   "after" : ["editer.action,formatDocument"]

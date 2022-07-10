@@ -1,6 +1,10 @@
 {
   "vim.useCtrlKeys": true,
-
+  // 启用 emotion 插件
+  "vim.easymotion": true,
+  // 修改 leader默认键位为 空格键
+  "vim.leader": "<Space>",
+  "vim.sneak": true,
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
@@ -30,5 +34,25 @@
       "before": ["L"],
       "after": ["g", "_"]
     }
-  ]
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // format document
+    // {
+    //   "before" : ["<leader>", "f"],
+    //   "after" : ["editer.action,formatDocument"]
+    // },
+    // {
+    //   "before": ["<Leader>", "e"],
+    //   "commands": ["editor.action.maker.nextInFiles"]
+    // },
+    // { "before": ["<Leader", ";"], "commands": ["whichkey.show"] },
+    { "before": ["J"], "after": ["5", "j"] },
+    { "before": ["K"], "after": ["5", "k"] },
+    { "before": ["<Leader>", "j"], "after": ["J"] },
+    { "before": ["f"], "after": ["s"] },
+    { "before": ["F"], "after": ["S"] },
+    { "before": ["s"], "after": ["c", "l"] },
+    { "before": ["S"], "after": ["^", "C"] }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [{ "before": ["f"], "after": ["s"] }]
 }

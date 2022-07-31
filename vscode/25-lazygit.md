@@ -20,7 +20,7 @@ echo "alias lg = 'lazygit'" >> ~/.zshrc
 
 ### git add
 
-选中文件列表，按下空格键
+选中文件列表，按下空格键可以切换暂存状态
 
 ### git commit
 
@@ -31,5 +31,7 @@ echo "alias lg = 'lazygit'" >> ~/.zshrc
 ### git push
 
 ### git reset
+
+切换到 commit 列表，选择想要撤销的commit，按下 g 键，弹出选框，选择需要的选项，回车确认
 
 ### git breach

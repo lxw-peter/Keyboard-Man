@@ -24,6 +24,8 @@ echo "alias lg = 'lazygit'" >> ~/.zshrc
 
 ### git commit
 
+按下 `c` 键，弹出`commit`框，输入 `commit` 信息，回车键提交
+
 ### git discard
 
 ### git push
